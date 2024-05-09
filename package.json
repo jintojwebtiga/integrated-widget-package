@@ -1,6 +1,6 @@
 {
   "name": "@jinto.j/integrated-widget-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -9,6 +9,10 @@
       "import": "./dist/index.esm.js",
       "require": "./dist/index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jintojwebtiga/integrated-widget-package"
   },
   "scripts": {
     "dev": "vite",
